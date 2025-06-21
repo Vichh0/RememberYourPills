@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:remembreyourpills/Pages/Login.dart';
+import 'package:remembreyourpills/Pages/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,12 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'FRememberYourPills',
+      title: 'RememberYourPills',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Login(title: 'Home Page'),
+      home: const SplashScreen(),
     );
   }
 }
